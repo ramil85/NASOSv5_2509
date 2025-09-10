@@ -26,7 +26,6 @@ logger = logging.getLogger(__name__)
 # with help from @stash86 and @Perkmeister
 
 
-
 def EWO(dataframe, ema_length=5, ema2_length=50):
     df = dataframe.copy()
     ema1 = ta.EMA(df, timeperiod=ema_length)
