@@ -34,7 +34,7 @@ def EWO(dataframe, ema_length=5, ema2_length=50):
     return emadif
 
 
-class NASOSv5_mod3(IStrategy):
+class NASOSv6_2509(IStrategy):
     INTERFACE_VERSION = 2
 
     # Buy hyperspace params:
